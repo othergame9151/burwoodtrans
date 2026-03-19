@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Transmission rebuild specialist</title>
+  <desc id="desc">Illustrated gearbox, tools and specialist bench setup for transmission repair</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f1316"/>
+      <stop offset="1" stop-color="#1f262c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <rect y="680" width="1600" height="220" fill="#232a31"/>
+  <rect x="200" y="185" width="1200" height="54" rx="16" fill="#2a333a"/>
+  <rect x="220" y="239" width="1160" height="34" rx="12" fill="#1a2025"/>
+  <ellipse cx="790" cy="510" rx="270" ry="148" fill="#95a0a9"/>
+  <ellipse cx="790" cy="510" rx="156" ry="92" fill="#232a31"/>
+  <circle cx="790" cy="510" r="62" fill="#b53b2f"/>
+  <circle cx="790" cy="510" r="26" fill="#111315"/>
+  <rect x="590" y="450" width="400" height="120" rx="40" fill="#bac3ca" opacity=".28"/>
+  <path d="M500 452l75 35-70 157-77-36z" fill="#b53b2f"/>
+  <rect x="478" y="605" width="94" height="42" rx="16" fill="#d7dfe4"/>
+  <path d="M1120 408c56 14 104 62 116 122l-38 8c-11-45-38-76-85-94z" fill="#d7dfe4"/>
+  <rect x="1115" y="390" width="50" height="220" rx="18" fill="#3f697e"/>
+  <rect x="1145" y="560" width="150" height="28" rx="12" transform="rotate(30 1145 560)" fill="#d7dfe4"/>
+  <rect x="280" y="330" width="170" height="170" rx="22" fill="#2e3941"/>
+  <circle cx="365" cy="415" r="52" fill="#b53b2f"/>
+  <circle cx="365" cy="415" r="20" fill="#111315"/>
+  <rect x="1200" y="250" width="190" height="190" rx="22" fill="#2e3941"/>
+  <path d="M1250 390h92" stroke="#d7dfe4" stroke-width="20" stroke-linecap="round"/>
+  <path d="M1296 344v92" stroke="#d7dfe4" stroke-width="20" stroke-linecap="round"/>
+  <text x="200" y="790" fill="#f6f7f8" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700">Transmission rebuild and reconditioning specialists</text>
+</svg>

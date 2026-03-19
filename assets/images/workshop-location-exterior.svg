@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Workshop location exterior</title>
+  <desc id="desc">Illustrated street-facing automotive workshop exterior in Burwood</desc>
+  <rect width="1600" height="900" fill="#171b20"/>
+  <rect y="690" width="1600" height="210" fill="#313840"/>
+  <rect y="560" width="1600" height="130" fill="#2a3138"/>
+  <rect x="180" y="180" width="1240" height="420" rx="26" fill="#222a31"/>
+  <rect x="240" y="260" width="1120" height="280" rx="18" fill="#f0f1ec"/>
+  <rect x="290" y="290" width="260" height="220" rx="12" fill="#3f697e" opacity=".28"/>
+  <rect x="620" y="290" width="470" height="220" rx="12" fill="#d7d4ce"/>
+  <rect x="1145" y="290" width="150" height="220" rx="12" fill="#3f697e" opacity=".28"/>
+  <rect x="520" y="180" width="560" height="86" rx="18" fill="#8b2c25"/>
+  <text x="572" y="236" fill="#f6f7f8" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">BURWOOD MECHANICS &amp; TRANSMISSION</text>
+  <path d="M470 620h680c54 0 98 44 98 98v14H372v-8c0-58 47-104 98-104z" fill="#5f6d79"/>
+  <path d="M590 556h440c44 0 80 36 80 80H510c0-44 36-80 80-80z" fill="#b53b2f"/>
+  <circle cx="550" cy="738" r="82" fill="#101316"/>
+  <circle cx="1060" cy="738" r="82" fill="#101316"/>
+  <text x="180" y="820" fill="#f6f7f8" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">Convenient Parramatta Road workshop location</text>
+</svg>

@@ -1,1669 +1,477 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-AU">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Burwood Mechanics &amp; Transmission | Transmission Specialist Burwood NSW</title>
-    <meta
-      name="description"
-      content="Burwood Mechanics & Transmission is a trusted Burwood mechanic and transmission specialist on Parramatta Road, servicing modern cars, 4WDs, SUVs and classic vehicles across Sydney's Inner West."
-    >
-    <meta
-      name="keywords"
-      content="Transmission specialist Burwood, Mechanic Burwood, Transmission rebuild Sydney, Classic car mechanic Inner West, Auto repairs Parramatta Road, Trusted mechanic Burwood NSW"
-    >
-    <meta name="theme-color" content="#12161b">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Burwood Mechanics &amp; Transmission">
-    <meta
-      property="og:description"
-      content="Transmission rebuild specialists and trusted local mechanics in Burwood NSW."
-    >
-    <meta property="og:url" content="https://www.burwoodmechanics.com.au/">
-    <meta property="og:image" content="https://www.burwoodmechanics.com.au/assets/images/hero-workshop.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="preconnect" href="https://challenges.cloudflare.com">
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-    <!--
-      IMAGE REPLACEMENT GUIDE
-      Keep these exact filenames if you swap in real photos later:
-      /assets/images/hero-workshop.jpg
-        1600x900 or larger, workshop interior or transmission work on hoist
-      /assets/images/workshop-service.jpg
-        1200x900, mechanic actively servicing a vehicle
-      /assets/images/transmission-specialist.jpg
-        1200x900, gearbox / transmission bench work
-      /assets/images/classic-car.jpg
-        1200x900, classic or vintage car in or outside workshop
-      /assets/images/general-service.jpg
-        1200x900, modern passenger car being serviced
-      /assets/images/fourwd-suv.jpg
-        1200x900, 4WD or SUV workshop shot
-      /assets/images/performance-car.jpg
-        1200x900, performance or enthusiast vehicle workshop image
-      /assets/images/family-vehicle.jpg
-        1200x900, family SUV or sedan service image
-      /assets/images/workshop-exterior.jpg
-        1600x900, exterior frontage or location-style workshop image
-
-      If you keep the existing placeholder SVG files instead, just rename the src values below back to .svg.
-
-      TURNSTILE
-      Replace YOUR_CLOUDFLARE_TURNSTILE_SITE_KEY with your real site key.
-      Cloudflare documents that server-side Siteverify validation is mandatory for full protection.
-
-      VERCEL ANALYTICS
-      Vercel's current docs center setup around enabling Analytics in the Vercel dashboard and deploying with the supported integration flow.
-      This page includes lightweight event hooks that safely no-op unless Vercel analytics is enabled in your deployment environment.
-    -->
-    <style>
-      :root {
-        --bg: #0e1216;
-        --bg-soft: #151a20;
-        --panel: rgba(24, 31, 38, 0.92);
-        --panel-strong: rgba(30, 37, 44, 0.97);
-        --panel-border: rgba(255, 255, 255, 0.08);
-        --text: #f5f7fa;
-        --text-soft: #c8d0d8;
-        --text-muted: #98a4af;
-        --accent: #c04f39;
-        --accent-strong: #dd644b;
-        --accent-alt: #4b7a96;
-        --accent-warm: #f0b15e;
-        --success: #7ac08c;
-        --danger: #ff9d8d;
-        --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
-        --radius: 24px;
-        --radius-sm: 16px;
-        --container: 1180px;
-        --header-height: 82px;
-        --section-space: clamp(4.5rem, 8vw, 7rem);
-      }
-
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-
-      html {
-        scroll-behavior: smooth;
-      }
-
-      body {
-        margin: 0;
-        min-width: 320px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-        color: var(--text);
-        line-height: 1.6;
-        background:
-          radial-gradient(circle at 0% 0%, rgba(75, 122, 150, 0.12), transparent 30%),
-          radial-gradient(circle at 100% 0%, rgba(192, 79, 57, 0.16), transparent 28%),
-          linear-gradient(180deg, #151a20 0%, #0c0f13 100%);
-      }
-
-      img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      button,
-      input,
-      textarea {
-        font: inherit;
-      }
-
-      p,
-      h1,
-      h2,
-      h3,
-      h4,
-      ul,
-      figure {
-        margin: 0;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4 {
-        line-height: 1.08;
-        letter-spacing: -0.025em;
-      }
-
-      .skip-link {
-        position: absolute;
-        left: 1rem;
-        top: -4rem;
-        z-index: 100;
-        padding: 0.85rem 1rem;
-        border-radius: 999px;
-        background: var(--accent);
-        color: #fff;
-      }
-
-      .skip-link:focus {
-        top: 1rem;
-      }
-
-      .container {
-        width: min(calc(100% - 2rem), var(--container));
-        margin: 0 auto;
-      }
-
-      .site-header {
-        position: sticky;
-        top: 0;
-        z-index: 30;
-        background: rgba(8, 11, 14, 0.82);
-        backdrop-filter: blur(18px);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-      }
-
-      .header-shell {
-        display: grid;
-        grid-template-columns: auto auto;
-        align-items: center;
-        gap: 1rem;
-        min-height: var(--header-height);
-      }
-
-      .brand {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.9rem;
-        min-width: 0;
-      }
-
-      .brand-mark {
-        width: 3rem;
-        height: 3rem;
-        display: grid;
-        place-items: center;
-        border-radius: 1rem;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-        background: linear-gradient(140deg, var(--accent-strong), #7c271c);
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
-      }
-
-      .brand-copy {
-        display: grid;
-        gap: 0.1rem;
-      }
-
-      .brand-copy strong {
-        font-size: 1rem;
-      }
-
-      .brand-copy span {
-        color: var(--text-muted);
-        font-size: 0.9rem;
-      }
-
-      .nav-toggle {
-        justify-self: end;
-        display: inline-grid;
-        gap: 0.3rem;
-        padding: 0.8rem;
-        border: 1px solid var(--panel-border);
-        border-radius: 1rem;
-        background: rgba(255, 255, 255, 0.04);
-        color: var(--text);
-      }
-
-      .nav-toggle span {
-        width: 1.25rem;
-        height: 2px;
-        background: currentColor;
-      }
-
-      .site-nav {
-        grid-column: 1 / -1;
-        display: none;
-        padding-bottom: 1rem;
-      }
-
-      .site-nav.open {
-        display: block;
-      }
-
-      .site-nav ul {
-        display: grid;
-        gap: 0.85rem;
-      }
-
-      .site-nav a {
-        color: var(--text-soft);
-        font-weight: 600;
-      }
-
-      .header-actions {
-        grid-column: 1 / -1;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.8rem;
-        padding-bottom: 1rem;
-        flex-wrap: wrap;
-      }
-
-      .phone-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.6rem;
-        font-weight: 800;
-      }
-
-      .phone-link::before {
-        content: "";
-        width: 0.55rem;
-        height: 0.55rem;
-        border-radius: 50%;
-        background: var(--success);
-        box-shadow: 0 0 0 0.3rem rgba(122, 192, 140, 0.12);
-      }
-
-      .button {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 3.15rem;
-        padding: 0.9rem 1.35rem;
-        border-radius: 999px;
-        border: 1px solid transparent;
-        font-weight: 800;
-        transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-      }
-
-      .button:hover,
-      .button:focus-visible {
-        transform: translateY(-1px);
-      }
-
-      .button-primary {
-        color: #fff;
-        background: linear-gradient(135deg, var(--accent-strong), var(--accent));
-        box-shadow: 0 14px 30px rgba(192, 79, 57, 0.28);
-      }
-
-      .button-secondary {
-        color: var(--text);
-        border-color: rgba(255, 255, 255, 0.14);
-        background: rgba(255, 255, 255, 0.04);
-      }
-
-      .button-map {
-        color: #fff;
-        background: linear-gradient(135deg, #446f89, var(--accent-alt));
-        box-shadow: 0 14px 30px rgba(75, 122, 150, 0.28);
-      }
-
-      .hero {
-        padding: clamp(3rem, 6vw, 4rem) 0 var(--section-space);
-      }
-
-      .hero-grid,
-      .split-grid,
-      .location-grid,
-      .contact-grid,
-      .footer-grid {
-        display: grid;
-        gap: 1.5rem;
-      }
-
-      .hero-grid {
-        align-items: center;
-      }
-
-      .eyebrow {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.6rem;
-        color: var(--accent-warm);
-        text-transform: uppercase;
-        letter-spacing: 0.14em;
-        font-size: 0.78rem;
-        font-weight: 800;
-      }
-
-      .eyebrow::before {
-        content: "";
-        width: 2rem;
-        height: 1px;
-        background: currentColor;
-      }
-
-      .hero-copy,
-      .stack,
-      .section-heading {
-        display: grid;
-        gap: 1.5rem;
-      }
-
-      .hero-copy h1 {
-        font-size: clamp(2rem, 6vw, 3.5rem);
-        max-width: 15ch;
-        line-height: 1.15;
-      }
-
-      .hero-copy p,
-      .section-copy,
-      .service-card p,
-      .vehicle-card p,
-      .about-copy p,
-      .testimonial-card p,
-      .feature p,
-      .footer-grid p,
-      .footer-grid li {
-        color: var(--text-soft);
-        line-height: 1.7;
-      }
-
-      .hero-badges,
-      .contact-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.85rem;
-      }
-
-      .hero-badges span,
-      .contact-links a {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.55rem;
-        padding: 0.68rem 0.95rem;
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.06);
-        color: var(--text-soft);
-      }
-
-      .hero-badges span::before {
-        content: "";
-        width: 0.5rem;
-        height: 0.5rem;
-        border-radius: 50%;
-        background: var(--accent-strong);
-      }
-
-      .hero-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.85rem;
-      }
-
-      .panel,
-      .card,
-      .testimonial-card,
-      .contact-form,
-      .hours-card,
-      .location-card {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.03));
-        border: 1px solid var(--panel-border);
-        box-shadow: var(--shadow);
-      }
-
-      .media {
-        position: relative;
-        overflow: hidden;
-        border-radius: var(--radius);
-        background: var(--panel);
-        border: 1px solid var(--panel-border);
-        box-shadow: var(--shadow);
-      }
-
-      .media::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 40%, rgba(0, 0, 0, 0.1) 100%);
-        pointer-events: none;
-      }
-
-      .media-hero {
-        aspect-ratio: 16 / 10;
-      }
-
-      .media-wide {
-        aspect-ratio: 16 / 9;
-      }
-
-      .media-card {
-        aspect-ratio: 4 / 3;
-      }
-
-      .hero-note {
-        position: absolute;
-        left: 1rem;
-        right: 1rem;
-        bottom: 1rem;
-        z-index: 1;
-        display: grid;
-        gap: 0.2rem;
-        padding: 1rem 1.1rem;
-        border-radius: 1rem;
-        background: rgba(6, 8, 10, 0.68);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        backdrop-filter: blur(12px);
-      }
-
-      .hero-note strong {
-        font-size: 1rem;
-      }
-
-      .hero-note span {
-        color: var(--text-muted);
-        font-size: 0.94rem;
-      }
-
-      .trust-strip {
-        padding: 1rem 0;
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        background: rgba(255, 255, 255, 0.025);
-      }
-
-      .trust-grid {
-        display: grid;
-        gap: 0.9rem;
-      }
-
-      .trust-item {
-        padding: 1.25rem 1.35rem;
-        border-radius: 1rem;
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-      }
-
-      .trust-item strong {
-        display: block;
-        margin-bottom: 0.25rem;
-      }
-
-      .trust-item span {
-        color: var(--text-muted);
-        font-size: 0.94rem;
-      }
-
-      .section {
-        padding: var(--section-space) 0;
-      }
-
-      .section-heading h2 {
-        font-size: clamp(1.75rem, 4vw, 2.75rem);
-        max-width: 16ch;
-        line-height: 1.2;
-      }
-
-      .section-heading p {
-        color: var(--text-soft);
-      }
-
-      .services-grid,
-      .vehicle-grid,
-      .testimonial-grid,
-      .feature-grid,
-      .gallery-grid {
-        display: grid;
-        gap: 1.2rem;
-      }
-
-      .service-card,
-      .vehicle-card {
-        overflow: hidden;
-        border-radius: var(--radius);
-      }
-
-      .service-card {
-        padding: 2rem;
-        display: grid;
-        gap: 1.2rem;
-      }
-
-      .service-card.featured {
-        background:
-          radial-gradient(circle at top right, rgba(192, 79, 57, 0.18), transparent 36%),
-          linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
-      }
-
-      .service-index {
-        width: 3rem;
-        height: 3rem;
-        display: grid;
-        place-items: center;
-        border-radius: 1rem;
-        background: rgba(255, 255, 255, 0.06);
-        color: var(--accent-warm);
-        font-weight: 800;
-      }
-
-      .feature-grid {
-        align-content: start;
-      }
-
-      .feature {
-        padding: 1.5rem 1.5rem;
-        border-left: 3px solid var(--accent);
-        background: rgba(255, 255, 255, 0.03);
-        border-radius: 0 1rem 1rem 0;
-      }
-
-      .vehicle-card .copy,
-      .testimonial-card,
-      .location-card,
-      .hours-card,
-      .contact-form {
-        padding: 2rem;
-      }
-
-      .vehicle-card .copy {
-        background: rgba(255, 255, 255, 0.03);
-      }
-
-      .gallery-grid .media {
-        min-height: 100%;
-      }
-
-      .testimonial-card {
-        border-radius: var(--radius);
-        display: grid;
-        gap: 0.95rem;
-      }
-
-      .stars {
-        color: var(--accent-warm);
-        letter-spacing: 0.12em;
-        font-size: 1.05rem;
-      }
-
-      .location-grid .stack {
-        gap: 1rem;
-      }
-
-      .hours-card ul {
-        display: grid;
-        gap: 0.9rem;
-      }
-
-      .hours-card li {
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-        padding-bottom: 0.9rem;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-      }
-
-      .hours-card li:last-child {
-        border-bottom: 0;
-        padding-bottom: 0;
-      }
-
-      .hours-card span {
-        color: var(--text-soft);
-      }
-
-      .map-wrap {
-        overflow: hidden;
-        border-radius: var(--radius);
-        border: 1px solid var(--panel-border);
-        box-shadow: var(--shadow);
-        background: var(--panel);
-      }
-
-      .map-wrap iframe {
-        width: 100%;
-        min-height: 24rem;
-        border: 0;
-        display: block;
-        filter: grayscale(0.18) saturate(0.9) contrast(1.02);
-      }
-
-      .contact-form {
-        border-radius: var(--radius);
-        display: grid;
-        gap: 1rem;
-      }
-
-      .form-row {
-        display: grid;
-        gap: 1rem;
-      }
-
-      .field {
-        display: grid;
-        gap: 0.45rem;
-      }
-
-      .field label {
-        font-weight: 700;
-      }
-
-      .field label span {
-        color: var(--text-muted);
-        font-weight: 500;
-      }
-
-      .field input,
-      .field textarea {
-        width: 100%;
-        padding: 0.95rem 1rem;
-        border-radius: 1rem;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        background: rgba(8, 11, 14, 0.58);
-        color: var(--text);
-        transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
-      }
-
-      .field input:focus,
-      .field textarea:focus {
-        outline: none;
-        border-color: var(--accent-alt);
-        box-shadow: 0 0 0 4px rgba(75, 122, 150, 0.16);
-        background: rgba(8, 11, 14, 0.76);
-      }
-
-      .field-error {
-        min-height: 1.1rem;
-        color: var(--danger);
-        font-size: 0.92rem;
-      }
-
-      .form-helper {
-        color: var(--text-muted);
-        font-size: 0.92rem;
-      }
-
-      .form-status {
-        min-height: 1.2rem;
-        font-weight: 700;
-        color: var(--success);
-      }
-
-      .site-footer {
-        padding: 3rem 0 6.5rem;
-        background: #090c10;
-        border-top: 1px solid rgba(255, 255, 255, 0.05);
-      }
-
-      .footer-grid {
-        gap: 1.5rem;
-      }
-
-      .footer-grid h2,
-      .footer-grid h3 {
-        margin-bottom: 0.8rem;
-      }
-
-      .footer-grid ul {
-        display: grid;
-        gap: 0.5rem;
-      }
-
-      .footer-bottom {
-        margin-top: 1.75rem;
-        padding-top: 1.5rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.06);
-        color: var(--text-muted);
-      }
-
-      .mobile-cta {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 40;
-        padding: 0.8rem 1rem max(0.8rem, env(safe-area-inset-bottom));
-        background: rgba(6, 9, 11, 0.94);
-        backdrop-filter: blur(12px);
-        border-top: 1px solid rgba(255, 255, 255, 0.08);
-      }
-
-      .mobile-cta .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0.75rem;
-      }
-
-      .reveal {
-        opacity: 0;
-        transform: translateY(18px);
-        transition: opacity 0.55s ease, transform 0.55s ease;
-      }
-
-      .reveal.is-visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
-
-      @media (min-width: 600px) {
-        .trust-grid,
-        .testimonial-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .services-grid,
-        .vehicle-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .form-row {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-      }
-
-      @media (min-width: 800px) {
-        .footer-grid,
-        .gallery-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-      }
-
-      @media (min-width: 980px) {
-        .header-shell {
-          grid-template-columns: auto 1fr auto;
-          gap: 1.5rem;
-        }
-
-        .nav-toggle {
-          display: none;
-        }
-
-        .site-nav {
-          display: block;
-          grid-column: auto;
-          padding: 0;
-        }
-
-        .site-nav ul {
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          gap: 1.5rem;
-        }
-
-        .header-actions {
-          grid-column: auto;
-          justify-content: flex-end;
-          padding: 0;
-        }
-
-        .hero-grid,
-        .split-grid,
-        .location-grid,
-        .contact-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-          gap: 3rem;
-        }
-
-        .hero-grid {
-          min-height: calc(100vh - var(--header-height) - 2rem);
-        }
-
-        .services-grid {
-          grid-template-columns: repeat(3, minmax(0, 1fr));
-        }
-
-        .vehicle-grid {
-          grid-template-columns: repeat(3, minmax(0, 1fr));
-        }
-
-        .vehicle-grid .vehicle-card:last-child {
-          grid-column: 2 / 3;
-        }
-
-        .trust-grid {
-          grid-template-columns: repeat(5, minmax(0, 1fr));
-        }
-
-        .testimonial-grid {
-          grid-template-columns: repeat(3, minmax(0, 1fr));
-        }
-
-        .feature-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .gallery-grid {
-          grid-template-columns: 1.15fr 0.85fr;
-        }
-
-        .footer-grid {
-          grid-template-columns: 1.5fr 1fr 1fr 1fr;
-        }
-      }
-
-      @media (min-width: 1100px) {
-        .mobile-cta {
-          display: none;
-        }
-
-        .site-footer {
-          padding-bottom: 2rem;
-        }
-      }
-
-      @media (min-width: 1400px) {
-        .container {
-          width: min(calc(100% - 3rem), var(--container));
-        }
-
-        .hero-grid,
-        .split-grid,
-        .location-grid,
-        .contact-grid {
-          gap: 4rem;
-        }
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        html {
-          scroll-behavior: auto;
-        }
-
-        *,
-        *::before,
-        *::after {
-          animation: none !important;
-          transition: none !important;
-        }
-      }
-    </style>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "AutoRepair",
-        "name": "Burwood Mechanics & Transmission",
-        "image": "https://www.burwoodmechanics.com.au/assets/images/hero-workshop.jpg",
-        "telephone": "+61 405 399 973",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "2/240 Parramatta Road",
-          "addressLocality": "Burwood",
-          "addressRegion": "NSW",
-          "postalCode": "2134",
-          "addressCountry": "AU"
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transmission Specialist Burwood | Mechanic Burwood NSW | Burwood Mechanics & Transmission</title>
+  <meta name="description" content="Burwood Mechanics & Transmission is a trusted mechanic in Burwood NSW specialising in transmission rebuilds, transmission repairs, classic car servicing, logbook servicing and auto repairs across Burwood, Strathfield and Sydney Inner West.">
+  <meta name="keywords" content="Transmission specialist Burwood, Mechanic Burwood, Transmission rebuild Sydney, Classic car mechanic Inner West, Auto repairs Parramatta Road, Trusted mechanic Burwood NSW">
+  <meta name="theme-color" content="#191c1f">
+  <meta property="og:title" content="Burwood Mechanics & Transmission | Trusted Transmission Specialist Burwood">
+  <meta property="og:description" content="Professional transmission rebuilds, honest mechanical repairs, classic car servicing and trusted automotive advice in Burwood and Sydney Inner West.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.burwoodmechanicsandtransmission.com.au/">
+  <meta property="og:image" content="/assets/images/hero-transmission-workshop.svg">
+  <meta property="og:locale" content="en_AU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Burwood Mechanics & Transmission">
+  <meta name="twitter:description" content="Transmission rebuild and repair specialists serving Burwood, Strathfield and Sydney Inner West.">
+  <link rel="preload" href="/assets/images/hero-transmission-workshop.svg" as="image">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Burwood Mechanics & Transmission",
+      "image": "https://www.burwoodmechanicsandtransmission.com.au/assets/images/hero-transmission-workshop.svg",
+      "url": "https://www.burwoodmechanicsandtransmission.com.au/",
+      "telephone": "+61 405 399 973",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2/240 Parramatta Road",
+        "addressLocality": "Burwood",
+        "addressRegion": "NSW",
+        "postalCode": "2134",
+        "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.878,
+        "longitude": 151.104
+      },
+      "areaServed": [
+        "Burwood",
+        "Strathfield",
+        "Sydney Inner West"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Dave"
+      },
+      "description": "Trusted local mechanic and transmission specialist in Burwood NSW offering transmission rebuilds, repairs, reconditioning, classic car servicing, diagnostics and general automotive repairs.",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
         },
-        "url": "https://www.burwoodmechanics.com.au/",
-        "priceRange": "$$",
-        "description": "Trusted mechanic and transmission specialist in Burwood NSW offering transmission rebuilds, diagnostics, servicing and classic car mechanical work.",
-        "founder": {
-          "@type": "Person",
-          "name": "Dave"
-        },
-        "areaServed": [
-          "Burwood",
-          "Parramatta Road",
-          "Sydney Inner West"
-        ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.6",
-          "bestRating": "5"
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "08:00",
-            "closes": "17:30"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:30",
-            "closes": "12:00"
-          }
-        ]
-      }
-    </script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:30",
+          "closes": "12:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.google.com/search?q=Burwood+Mechanics+%26+Transmission"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "bestRating": "5"
+      },
+      "hasMap": "https://www.google.com/maps?q=2/240+Parramatta+Road+Burwood+NSW+2134"
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header class="site-header" id="top">
-      <div class="container header-shell">
-        <a class="brand" href="#top" aria-label="Burwood Mechanics and Transmission home">
-          <span class="brand-mark" aria-hidden="true">BMT</span>
-          <span class="brand-copy">
-            <strong>Burwood Mechanics &amp; Transmission</strong>
-            <span>Trusted local workshop on Parramatta Road</span>
-          </span>
-        </a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Burwood Mechanics & Transmission home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-text">
+          <strong>Burwood Mechanics</strong>
+          <span>&amp; Transmission</span>
+        </span>
+      </a>
 
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-          <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#specialists">Why Us</a></li>
-            <li><a href="#vehicles">Vehicles</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#reviews">Reviews</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <div class="header-actions">
-          <a class="phone-link track-event" href="tel:0405399973" data-event="call_header">0405 399 973</a>
-          <a class="button button-primary track-event" href="#contact" data-event="book_service_header">Call / Book Service</a>
-        </div>
-      </div>
-    </header>
-
-    <main id="main-content">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Transmission specialist Burwood</p>
-            <h1>Transmission specialist and trusted mechanical service in Burwood.</h1>
-            <p>
-              We specialise in transmission rebuilds and reconditioning, paired with dependable general repairs. Known for honest advice, fair pricing and expertise with classic cars and everyday vehicles across Sydney&rsquo;s Inner West.
-            </p>
-            <div class="hero-badges" aria-label="Workshop highlights">
-              <span>4.6 Google rating</span>
-              <span>Dave&rsquo;s trusted reputation</span>
-              <span>Classic and vintage experience</span>
-            </div>
-            <div class="hero-actions">
-              <a class="button button-primary track-event" href="tel:0405399973" data-event="call_hero">Call Now</a>
-              <a class="button button-secondary track-event" href="#contact" data-event="quote_hero">Get Quote / Enquire</a>
-            </div>
-          </div>
-
-          <figure class="media media-hero reveal">
-            <img
-              src="/assets/images/hero-workshop.jpg"
-              onerror="this.onerror=null;this.src='/assets/images/hero-workshop.svg';"
-              width="1600"
-              height="1000"
-              alt="Transmission specialist workshop in Burwood with mechanic working beside a vehicle on a hoist"
-            >
-            <figcaption class="hero-note">
-              <strong>Transmission rebuild specialists</strong>
-              <span>Serving Burwood, Parramatta Road and Sydney&rsquo;s Inner West</span>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="trust-strip" aria-label="Trust indicators">
-        <div class="container trust-grid">
-          <div class="trust-item">
-            <strong>&#9733; 4.6 Google rating</strong>
-            <span>Well reviewed by local drivers</span>
-          </div>
-          <div class="trust-item">
-            <strong>Transmission specialists</strong>
-            <span>Rebuilds and reconditioning expertise</span>
-          </div>
-          <div class="trust-item">
-            <strong>Trusted local mechanic</strong>
-            <span>Professional and straightforward service</span>
-          </div>
-          <div class="trust-item">
-            <strong>Classic car experts</strong>
-            <span>Experienced with vintage and old school vehicles</span>
-          </div>
-          <div class="trust-item">
-            <strong>Burwood &amp; Inner West</strong>
-            <span>Convenient Parramatta Road location</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="services">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Workshop services</p>
-            <h2>Complete mechanical repairs backed by transmission expertise.</h2>
-            <p class="section-copy">
-              Transmission rebuilds, diagnostics, general servicing and repairs with straightforward advice and professional workmanship.
-            </p>
-          </div>
-
-          <div class="services-grid">
-            <article class="service-card card featured reveal">
-              <div class="service-index">01</div>
-              <h3>Transmission rebuilds &amp; reconditioning</h3>
-              <p>Specialist diagnosis, transmission rebuilds and reconditioning work for slipping, delayed or failing gearboxes.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">02</div>
-              <h3>General mechanical repairs</h3>
-              <p>Dependable repairs to keep your vehicle safe, smooth and ready for daily driving.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">03</div>
-              <h3>Logbook servicing</h3>
-              <p>Routine servicing carried out carefully to support reliability, performance and long-term vehicle value.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">04</div>
-              <h3>Diagnostics</h3>
-              <p>Clear fault finding for warning lights, drivability concerns and hard-to-track mechanical issues.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">05</div>
-              <h3>Brakes &amp; suspension</h3>
-              <p>Brake, steering and suspension work to improve safety, control and comfort.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">06</div>
-              <h3>Engine &amp; drivetrain</h3>
-              <p>Mechanical repairs across critical driveline systems with a focus on solid, lasting results.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">07</div>
-              <h3>Classic car servicing &amp; restoration support</h3>
-              <p>Respectful workshop care for older vehicles that need experience, patience and attention to detail.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">08</div>
-              <h3>4WD &amp; SUV servicing</h3>
-              <p>Maintenance and repair support for hard-working SUVs and 4WDs used for family, trade or travel.</p>
-            </article>
-            <article class="service-card card reveal">
-              <div class="service-index">09</div>
-              <h3>Pre-purchase inspections</h3>
-              <p>Independent assessments to help buyers understand condition, risks and likely repair needs before committing.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="specialists">
-        <div class="container split-grid">
-          <div class="stack">
-            <div class="section-heading">
-              <p class="eyebrow">Why choose us</p>
-              <h2>Professional, capable and transparent local service.</h2>
-              <p class="section-copy">
-                Built on solid workmanship, clear communication and real expertise. We help you understand what needs doing now and what can wait.
-              </p>
-            </div>
-
-            <div class="feature-grid">
-              <article class="feature reveal">
-                <h3>Transmission rebuild specialists</h3>
-                <p>Transmission work is a genuine workshop specialty, not just another line on a services list.</p>
-              </article>
-              <article class="feature reveal">
-                <h3>Honest and transparent pricing</h3>
-                <p>Customers value practical explanations, realistic options and fair rates without unnecessary upselling.</p>
-              </article>
-              <article class="feature reveal">
-                <h3>Excellent with classic vehicles</h3>
-                <p>Older drivetrains and restoration-minded servicing need real experience, especially on well-loved classics.</p>
-              </article>
-              <article class="feature reveal">
-                <h3>Dave&rsquo;s trusted local reputation</h3>
-                <p>Known for being professional, approachable and efficient, with workmanship customers recommend to others.</p>
-              </article>
-            </div>
-          </div>
-
-          <div class="gallery-grid">
-            <figure class="media media-card reveal">
-              <img
-                src="/assets/images/workshop-service.jpg"
-                onerror="this.onerror=null;this.src='/assets/images/workshop-service.svg';"
-                width="1200"
-                height="900"
-                alt="Mechanic performing detailed vehicle service work in a professional automotive workshop"
-              >
-            </figure>
-            <figure class="media media-card reveal">
-              <img
-                src="/assets/images/transmission-specialist.jpg"
-                onerror="this.onerror=null;this.src='/assets/images/transmission-specialist.svg';"
-                width="1200"
-                height="900"
-                alt="Transmission specialist inspecting gearbox components on a workbench"
-              >
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="vehicles">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Vehicles we work on</p>
-            <h2>Experienced with every vehicle type from classics to modern 4WDs.</h2>
-            <p class="section-copy">
-              We work on classics, daily drivers, family vehicles and 4WDs with the same commitment to quality and proper care.
-            </p>
-          </div>
-
-          <div class="vehicle-grid">
-            <article class="vehicle-card card reveal">
-              <figure class="media media-card">
-                <img
-                  src="/assets/images/classic-car.jpg"
-                  onerror="this.onerror=null;this.src='/assets/images/classic-car.svg';"
-                  width="1200"
-                  height="900"
-                  alt="Classic vintage car receiving specialist mechanical attention"
-                >
-              </figure>
-              <div class="copy">
-                <h3>Classic &amp; vintage vehicles</h3>
-                <p>Well suited to owners looking for a classic car mechanic in the Inner West with experience around older mechanical systems.</p>
-              </div>
-            </article>
-
-            <article class="vehicle-card card reveal">
-              <figure class="media media-card">
-                <img
-                  src="/assets/images/general-service.jpg"
-                  onerror="this.onerror=null;this.src='/assets/images/general-service.svg';"
-                  width="1200"
-                  height="900"
-                  alt="Modern passenger vehicle in a workshop being serviced by a local mechanic"
-                >
-              </figure>
-              <div class="copy">
-                <h3>Modern passenger cars</h3>
-                <p>Everyday servicing and repairs for drivers who want a trusted mechanic in Burwood and clear advice.</p>
-              </div>
-            </article>
-
-            <article class="vehicle-card card reveal">
-              <figure class="media media-card">
-                <img
-                  src="/assets/images/fourwd-suv.jpg"
-                  onerror="this.onerror=null;this.src='/assets/images/fourwd-suv.svg';"
-                  width="1200"
-                  height="900"
-                  alt="Four wheel drive and SUV in a workshop prepared for service and drivetrain checks"
-                >
-              </figure>
-              <div class="copy">
-                <h3>4WDs &amp; SUVs</h3>
-                <p>Built for owners who need durable workshop support for family transport, towing or heavier use.</p>
-              </div>
-            </article>
-
-            <article class="vehicle-card card reveal">
-              <figure class="media media-card">
-                <img
-                  src="/assets/images/performance-car.jpg"
-                  onerror="this.onerror=null;this.src='/assets/images/performance-car.svg';"
-                  width="1200"
-                  height="900"
-                  alt="Performance-focused vehicle receiving workshop drivetrain inspection"
-                >
-              </figure>
-              <div class="copy">
-                <h3>Performance vehicles</h3>
-                <p>Careful mechanical assessment where drivability, feel and component integrity matter.</p>
-              </div>
-            </article>
-
-            <article class="vehicle-card card reveal">
-              <figure class="media media-card">
-                <img
-                  src="/assets/images/family-vehicle.jpg"
-                  onerror="this.onerror=null;this.src='/assets/images/family-vehicle.svg';"
-                  width="1200"
-                  height="900"
-                  alt="Family vehicle serviced by a trusted local mechanic in Burwood"
-                >
-              </figure>
-              <div class="copy">
-                <h3>Family vehicles</h3>
-                <p>Reliable maintenance and repairs to help keep family transport safe, smooth and ready for the week.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="about">
-        <div class="container split-grid">
-          <figure class="media media-wide reveal">
-            <img
-              src="/assets/images/workshop-exterior.jpg"
-              onerror="this.onerror=null;this.src='/assets/images/workshop-exterior.svg';"
-              width="1600"
-              height="900"
-              alt="Automotive workshop exterior on Parramatta Road in Burwood NSW"
-            >
-          </figure>
-
-          <div class="stack about-copy">
-            <div class="section-heading">
-              <p class="eyebrow">About Burwood Mechanics &amp; Transmission</p>
-              <h2>Professional, local mechanical service since day one.</h2>
-            </div>
-            <p>
-              Burwood Mechanics &amp; Transmission is trusted for solid workmanship, honest advice and specialist transmission expertise. Whether it&rsquo;s a general service, diagnostics or complex rebuild, we handle the work professionally.
-            </p>
-            <p>
-              Dave&rsquo;s reputation comes from being fair, capable and straightforward. Classic car owners, local drivers and anyone looking for a dependable Burwood mechanic knows they&rsquo;ll get clear explanations and quality work.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="reviews">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Testimonials</p>
-            <h2>Real feedback from customers who trust our work.</h2>
-          </div>
-
-          <div class="testimonial-grid">
-            <article class="testimonial-card panel reveal">
-              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>
-                Dave explained the transmission issue clearly and suggested realistic repair options. No pressure for unnecessary work. The car feels great again.
-              </p>
-              <h3>Michael T.</h3>
-              <span>Transmission repair customer</span>
-            </article>
-
-            <article class="testimonial-card panel reveal">
-              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>
-                Found someone who genuinely understands older cars. Dave treated my classic with real care, kept me in the loop and the pricing was transparent throughout.
-              </p>
-              <h3>Steven R.</h3>
-              <span>Classic car owner</span>
-            </article>
-
-            <article class="testimonial-card panel reveal">
-              <div class="stars" aria-label="4 out of 5 stars">★★★★☆</div>
-              <p>
-                Excellent service and diagnostics for my SUV. Clear communication, quick turnaround and transparent pricing. I trust this workshop completely.
-              </p>
-              <h3>Anita L.</h3>
-              <span>Burwood local</span>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="location">
-        <div class="container location-grid">
-          <div class="stack">
-            <div class="section-heading">
-              <p class="eyebrow">Location &amp; hours</p>
-              <h2>Convenient Parramatta Road location with weekend hours.</h2>
-              <p class="section-copy">
-                Easy to reach in Burwood with Saturday morning service available for the wider Inner West community.
-              </p>
-            </div>
-
-            <div class="location-card panel">
-              <h3>Visit the workshop</h3>
-              <p>Burwood Mechanics &amp; Transmission</p>
-              <p>2/240 Parramatta Road, Burwood NSW 2134</p>
-              <p><a class="track-event" href="tel:0405399973" data-event="call_location">0405 399 973</a></p>
-              <p style="margin-top: 1rem;">
-                <a
-                  class="button button-map track-event"
-                  href="https://www.google.com/maps/search/?api=1&amp;query=2%2F240+Parramatta+Road%2C+Burwood+NSW+2134"
-                  target="_blank"
-                  rel="noreferrer"
-                  data-event="map_click"
-                >Find us on Parramatta Road</a>
-              </p>
-            </div>
-
-            <div class="hours-card panel">
-              <h3>Business hours</h3>
-              <ul>
-                <li><span>Monday - Friday</span><strong>8:00am - 5:30pm</strong></li>
-                <li><span>Saturday</span><strong>8:30am - 12:00pm</strong></li>
-                <li><span>Sunday</span><strong>Closed</strong></li>
-                <li><span>Public holidays</span><strong>Hours may vary</strong></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="map-wrap reveal">
-            <iframe
-              title="Map showing Burwood Mechanics and Transmission at 2/240 Parramatta Road, Burwood NSW 2134"
-              src="https://www.google.com/maps?q=2/240+Parramatta+Road,+Burwood+NSW+2134&output=embed"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="contact">
-        <div class="container contact-grid">
-          <div class="stack">
-            <div class="section-heading">
-              <p class="eyebrow">Contact the workshop</p>
-              <h2>Get in touch to book, quote or discuss your vehicle.</h2>
-              <p class="section-copy">
-                Whether it&rsquo;s a transmission concern, service due or general advice, contact us and we&rsquo;ll help you move forward.
-              </p>
-            </div>
-
-            <div class="contact-links">
-              <a class="track-event" href="tel:0405399973" data-event="call_contact">Call 0405 399 973</a>
-              <a class="track-event" href="#location" data-event="location_contact">See location &amp; hours</a>
-            </div>
-          </div>
-
-          <form
-            class="contact-form panel"
-            id="enquiry-form"
-            name="burwood-mechanics-enquiry"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            netlify
-            novalidate
-          >
-            <input type="hidden" name="form-name" value="burwood-mechanics-enquiry">
-            <input type="hidden" name="subject" value="New website enquiry for Burwood Mechanics &amp; Transmission">
-            <p hidden>
-              <label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field"></label>
-            </p>
-
-            <div class="form-row">
-              <div class="field">
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" autocomplete="name" required>
-                <span class="field-error" id="name-error" aria-live="polite"></span>
-              </div>
-              <div class="field">
-                <label for="phone">Phone</label>
-                <input id="phone" name="phone" type="tel" autocomplete="tel" required>
-                <span class="field-error" id="phone-error" aria-live="polite"></span>
-              </div>
-            </div>
-
-            <div class="form-row">
-              <div class="field">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" autocomplete="email" required>
-                <span class="field-error" id="email-error" aria-live="polite"></span>
-              </div>
-              <div class="field">
-                <label for="vehicle">Vehicle details <span>(optional)</span></label>
-                <input id="vehicle" name="vehicle" type="text" autocomplete="off" placeholder="Make, model, year or issue">
-              </div>
-            </div>
-
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" required></textarea>
-              <span class="field-error" id="message-error" aria-live="polite"></span>
-            </div>
-
-            <div class="field">
-              <label for="preferred-time">Preferred contact time <span>(optional)</span></label>
-              <input id="preferred-time" name="preferred_time" type="text" autocomplete="off" placeholder="For example: mornings, after 3pm, Saturday">
-            </div>
-
-            <div class="cf-turnstile" data-sitekey="YOUR_CLOUDFLARE_TURNSTILE_SITE_KEY" data-theme="dark" data-callback="turnstileSuccess" data-expired-callback="turnstileExpired" data-error-callback="turnstileExpired"></div>
-            <p class="form-helper">Replace the Turnstile site key in the code before launch.</p>
-            <button class="button button-primary track-event" id="submit-button" type="submit" data-event="form_submit_attempt">Send Enquiry</button>
-            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <h2>Burwood Mechanics &amp; Transmission</h2>
-          <p>
-            Transmission specialist and trusted mechanic in Burwood. Specialising in gearbox rebuilds, general repairs and honest advice for the Inner West community.
-          </p>
-        </div>
-        <div>
-          <h3>Service areas</h3>
-          <ul>
-            <li>Burwood</li>
-            <li>Parramatta Road</li>
-            <li>Sydney Inner West</li>
-            <li>Nearby surrounding suburbs</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Hours</h3>
-          <ul>
-            <li>Mon - Fri: 8:00am - 5:30pm</li>
-            <li>Sat: 8:30am - 12:00pm</li>
-            <li>Sun: Closed</li>
-            <li>Public holidays: Hours may vary</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Contact</h3>
-          <ul>
-            <li><a class="track-event" href="tel:0405399973" data-event="call_footer">0405 399 973</a></li>
-            <li>2/240 Parramatta Road, Burwood NSW 2134</li>
-            <li><a href="#contact">Book a service or request a quote</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>Copyright 2026 Burwood Mechanics &amp; Transmission. All rights reserved.</p>
-      </div>
-    </footer>
-
-    <div class="mobile-cta" aria-label="Quick contact actions">
-      <div class="container">
-        <a class="button button-secondary track-event" href="#contact" data-event="mobile_quote">Get Quote</a>
-        <a class="button button-primary track-event" href="tel:0405399973" data-event="mobile_call">Call Now</a>
+      <div class="header-actions">
+        <a class="header-phone" href="tel:0405399973" aria-label="Call Burwood Mechanics and Transmission on 0405 399 973">0405 399 973</a>
+        <a class="button button-primary" href="tel:0405399973">Call / Book Service</a>
       </div>
     </div>
+  </header>
 
-    <script>
-      const navToggle = document.querySelector(".nav-toggle");
-      const siteNav = document.querySelector(".site-nav");
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Transmission Specialist Burwood</p>
+          <h1>Trusted transmission rebuilds, repairs and honest mechanical service in Burwood.</h1>
+          <p class="hero-lead">Burwood Mechanics &amp; Transmission is known across Burwood, Strathfield and the Sydney Inner West for quality transmission work, fair advice and dependable repairs on classic cars, family vehicles, 4WDs and performance cars.</p>
+          <div class="hero-points" aria-label="Business highlights">
+            <span>4.6 star Google rating</span>
+            <span>Highly regarded mechanic Dave</span>
+            <span>Classic and vintage vehicle experience</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:0405399973">Call Now</a>
+            <a class="button button-secondary" href="#contact">Get Quote / Enquire</a>
+          </div>
+        </div>
 
-      if (navToggle && siteNav) {
-        navToggle.addEventListener("click", () => {
-          const isOpen = navToggle.getAttribute("aria-expanded") === "true";
-          navToggle.setAttribute("aria-expanded", String(!isOpen));
-          siteNav.classList.toggle("open");
-        });
+        <div class="hero-media">
+          <div class="image-frame image-frame-hero">
+            <img src="/assets/images/hero-transmission-workshop.svg" width="960" height="540" alt="Transmission specialist working inside a professional Burwood automotive workshop" loading="eager">
+          </div>
+          <div class="hero-card">
+            <strong>Transmission expertise you can trust</strong>
+            <p>Rebuilds, reconditioning, diagnostics and repairs backed by practical experience and straightforward advice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        siteNav.querySelectorAll("a").forEach((link) => {
-          link.addEventListener("click", () => {
-            navToggle.setAttribute("aria-expanded", "false");
-            siteNav.classList.remove("open");
-          });
-        });
-      }
+    <section class="trust-bar" aria-label="Trust and reputation">
+      <div class="container trust-items">
+        <div><strong>4.6 Google Rating</strong><span>Local reputation built on honest work</span></div>
+        <div><strong>Transmission Specialists</strong><span>Rebuilds, repairs and reconditioning</span></div>
+        <div><strong>Trusted Local Mechanic</strong><span>Professional service on Parramatta Road</span></div>
+        <div><strong>Classic Car Experts</strong><span>Careful work on vintage and enthusiast vehicles</span></div>
+        <div><strong>Serving Burwood &amp; Inner West</strong><span>Convenient for Burwood, Strathfield and nearby suburbs</span></div>
+      </div>
+    </section>
 
-      let turnstileVerified = false;
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Automotive Services</p>
+          <h2>Specialist transmission work and complete mechanical care.</h2>
+          <p>From transmission rebuilds to everyday vehicle servicing, the workshop handles practical repairs with clear communication and workmanship you can rely on.</p>
+        </div>
 
-      window.turnstileSuccess = function () {
-        turnstileVerified = true;
-        const status = document.getElementById("form-status");
-        if (status) {
-          status.textContent = "";
-        }
-      };
+        <div class="services-layout">
+          <article class="feature-service">
+            <div class="image-frame image-frame-wide">
+              <img src="/assets/images/transmission-specialist-rebuild.svg" width="960" height="540" alt="Transmission rebuild specialist performing gearbox reconditioning work" loading="lazy">
+            </div>
+            <div class="feature-copy">
+              <p class="eyebrow">Featured Specialist Service</p>
+              <h3>Transmission rebuilds, reconditioning and repairs</h3>
+              <p>Burwood Mechanics &amp; Transmission is known for diagnosing driveline issues properly and carrying out transmission rebuilds, reconditioning and repairs with care. If your vehicle is slipping, harsh-shifting, leaking or not driving as it should, this is the service the workshop is trusted for.</p>
+              <ul class="feature-list">
+                <li>Accurate fault diagnosis before major work begins</li>
+                <li>Repair and rebuild options explained clearly</li>
+                <li>Suitable for modern, classic, performance and 4WD vehicles</li>
+              </ul>
+            </div>
+          </article>
 
-      window.turnstileExpired = function () {
-        turnstileVerified = false;
-      };
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>General mechanical repairs</h3>
+              <p>Reliable repairs for everyday issues across engines, cooling systems, steering, driveline and more.</p>
+            </article>
+            <article class="service-card">
+              <h3>Logbook servicing</h3>
+              <p>Routine maintenance completed carefully to help keep your vehicle safe, efficient and dependable.</p>
+            </article>
+            <article class="service-card">
+              <h3>Diagnostics</h3>
+              <p>Clear fault finding for warning lights, drivability concerns, transmission symptoms and running issues.</p>
+            </article>
+            <article class="service-card">
+              <h3>Brakes &amp; suspension</h3>
+              <p>Brake servicing, suspension repairs and component replacement to restore handling and confidence.</p>
+            </article>
+            <article class="service-card">
+              <h3>Engine &amp; drivetrain</h3>
+              <p>Practical repairs and maintenance for core systems that keep your vehicle performing properly.</p>
+            </article>
+            <article class="service-card">
+              <h3>Classic car servicing &amp; restoration support</h3>
+              <p>Thoughtful mechanical attention for vintage and enthusiast vehicles that need experienced hands.</p>
+            </article>
+            <article class="service-card">
+              <h3>4WD &amp; SUV servicing</h3>
+              <p>Service and repair work for larger vehicles used for family duties, towing and recreational driving.</p>
+            </article>
+            <article class="service-card">
+              <h3>Pre-purchase inspections</h3>
+              <p>Independent mechanical checks to help buyers make informed decisions before committing to a vehicle.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      const form = document.getElementById("enquiry-form");
-      const status = document.getElementById("form-status");
+    <section class="section why-us-section" id="why-us">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Why Choose Us</p>
+          <h2>A local workshop known for quality transmission work and straight answers.</h2>
+        </div>
 
-      const validators = [
-        {
-          id: "name",
-          test: (value) => value.trim().length >= 2,
-          message: "Please enter your name."
-        },
-        {
-          id: "phone",
-          test: (value) => /^[0-9+()\s-]{8,}$/.test(value.trim()),
-          message: "Please enter a valid phone number."
-        },
-        {
-          id: "email",
-          test: (value) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim()),
-          message: "Please enter a valid email address."
-        },
-        {
-          id: "message",
-          test: (value) => value.trim().length >= 10,
-          message: "Please enter a message with a few details."
-        }
-      ];
+        <div class="reasons-grid">
+          <article class="reason-card">
+            <h3>Transmission rebuild specialists</h3>
+            <p>Transmission work is a core strength of the workshop, from diagnosis and repair through to reconditioning and rebuilds.</p>
+          </article>
+          <article class="reason-card">
+            <h3>Honest, transparent pricing</h3>
+            <p>Customers come back because the advice is practical, the work is explained clearly and the pricing is fair.</p>
+          </article>
+          <article class="reason-card">
+            <h3>Excellent with classic and vintage vehicles</h3>
+            <p>Classic cars need patience and mechanical understanding. The workshop is well suited to older, enthusiast-owned vehicles.</p>
+          </article>
+          <article class="reason-card">
+            <h3>Quality workmanship</h3>
+            <p>Everyday repairs and specialist jobs are approached with the same care, attention and professional standard.</p>
+          </article>
+          <article class="reason-card">
+            <h3>Dave’s trusted reputation</h3>
+            <p>Dave is highly regarded for being capable, fair and straightforward, making the workshop a trusted local choice.</p>
+          </article>
+          <article class="reason-card">
+            <h3>Reasonable rates</h3>
+            <p>The focus is on value and lasting repair outcomes, not unnecessary upselling or inflated recommendations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      function setFieldState(field, valid) {
-        const input = document.getElementById(field.id);
-        const error = document.getElementById(field.id + "-error");
-        if (!input || !error) return;
-        input.setAttribute("aria-invalid", String(!valid));
-        error.textContent = valid ? "" : field.message;
-      }
+    <section class="section vehicles-section" id="vehicles">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Vehicles We Work On</p>
+          <h2>Welcoming service for enthusiasts, families and everyday drivers.</h2>
+          <p>Whether your vehicle is a cherished classic, a daily commuter or a hardworking 4WD, the workshop provides practical mechanical support with the right level of care.</p>
+        </div>
 
-      validators.forEach((field) => {
-        const input = document.getElementById(field.id);
-        if (!input) return;
-        input.addEventListener("blur", () => {
-          setFieldState(field, field.test(input.value));
-        });
-      });
+        <div class="vehicle-grid">
+          <article class="vehicle-card">
+            <div class="image-frame image-frame-portrait">
+              <img src="/assets/images/classic-car-service.svg" width="800" height="600" alt="Classic and vintage vehicle being serviced by an experienced mechanic" loading="lazy">
+            </div>
+            <h3>Classic and vintage vehicles</h3>
+            <p>Careful servicing and repairs for older vehicles that deserve knowledgeable attention.</p>
+          </article>
+          <article class="vehicle-card">
+            <div class="image-frame image-frame-portrait">
+              <img src="/assets/images/general-vehicle-repair.svg" width="800" height="600" alt="Modern passenger car receiving routine mechanical repair service" loading="lazy">
+            </div>
+            <h3>Modern passenger cars</h3>
+            <p>Reliable maintenance and repairs to keep daily transport running safely and smoothly.</p>
+          </article>
+          <article class="vehicle-card">
+            <div class="image-frame image-frame-portrait">
+              <img src="/assets/images/mechanic-workshop-service.svg" width="800" height="600" alt="Mechanic servicing a four wheel drive or SUV inside a clean workshop" loading="lazy">
+            </div>
+            <h3>4WDs and SUVs</h3>
+            <p>Servicing and repairs for larger vehicles used for family travel, towing and weekend driving.</p>
+          </article>
+          <article class="vehicle-card">
+            <div class="image-frame image-frame-portrait">
+              <img src="/assets/images/transmission-specialist-rebuild.svg" width="800" height="600" alt="Performance vehicle drivetrain and transmission specialist repair work" loading="lazy">
+            </div>
+            <h3>Performance vehicles</h3>
+            <p>Mechanical and transmission work for vehicles where responsiveness and drivability matter.</p>
+          </article>
+          <article class="vehicle-card">
+            <div class="image-frame image-frame-portrait">
+              <img src="/assets/images/workshop-location-exterior.svg" width="800" height="600" alt="Family vehicle arriving at a trusted local workshop in Burwood" loading="lazy">
+            </div>
+            <h3>Family vehicles</h3>
+            <p>Practical, honest support for the cars families depend on every day around Burwood and the Inner West.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      function encodeFormData(formElement) {
-        const formData = new FormData(formElement);
-        return new URLSearchParams(formData).toString();
-      }
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">About The Workshop</p>
+          <h2>Trusted automotive service with genuine transmission expertise.</h2>
+          <p>Burwood Mechanics &amp; Transmission is a local workshop on Parramatta Road serving Burwood, Strathfield and the wider Sydney Inner West. The business is known for quality transmission repairs, rebuilds and reconditioning, while also looking after general mechanical repairs for a wide range of vehicles.</p>
+          <p>Dave has earned a strong reputation for honest advice, practical problem-solving and workmanship customers can trust. That matters whether you are dealing with a transmission issue, maintaining a family vehicle or looking for someone who understands classic and vintage cars.</p>
+          <p>The approach is simple: diagnose properly, explain the work clearly and deliver service that feels professional, efficient and fair.</p>
+        </div>
 
-      async function submitNetlifyForm(event) {
-        event.preventDefault();
+        <div class="about-media-stack">
+          <div class="image-frame image-frame-wide">
+            <img src="/assets/images/mechanic-workshop-service.svg" width="960" height="540" alt="Experienced mechanic Dave working carefully in a professional automotive workshop" loading="lazy">
+          </div>
+          <div class="stats-panel" aria-label="Workshop strengths">
+            <div>
+              <strong>4.6 stars</strong>
+              <span>Google review reputation</span>
+            </div>
+            <div>
+              <strong>Burwood NSW</strong>
+              <span>Convenient Parramatta Road location</span>
+            </div>
+            <div>
+              <strong>Specialist transmission work</strong>
+              <span>Repairs, rebuilds and reconditioning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        let firstInvalid = null;
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Feedback that reflects honest service and trusted workmanship.</h2>
+        </div>
 
-        validators.forEach((field) => {
-          const input = document.getElementById(field.id);
-          if (!input) return;
-          const valid = field.test(input.value);
-          setFieldState(field, valid);
-          if (!valid && !firstInvalid) {
-            firstInvalid = input;
-          }
-        });
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 star review">★★★★★</div>
+            <p>Dave took the time to explain the transmission issue properly and gave me a fair repair path without any pressure. The car shifts beautifully again. Hard to find mechanics this honest.</p>
+            <strong>Michael R.</strong>
+            <span>Transmission repair, Burwood</span>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 star review">★★★★★</div>
+            <p>I brought in my classic Holden because I wanted someone careful, not rushed. The service was professional from start to finish and it was clear Dave understands older vehicles.</p>
+            <strong>Anthony P.</strong>
+            <span>Classic car servicing, Inner West</span>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars" aria-label="4 star review">★★★★☆</div>
+            <p>Good local mechanic with straightforward pricing and clear communication. They diagnosed a driveline problem that another workshop missed and got the car back on the road quickly.</p>
+            <strong>Sarah L.</strong>
+            <span>General mechanical repairs, Strathfield</span>
+          </article>
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 star review">★★★★★</div>
+            <p>Excellent service on our family SUV. Friendly team, realistic pricing and no unnecessary extras. You can see why locals trust this workshop.</p>
+            <strong>Daniel K.</strong>
+            <span>4WD and SUV servicing, Burwood</span>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        if (firstInvalid) {
-          status.textContent = "Please review the highlighted fields and try again.";
-          firstInvalid.focus();
-          return;
-        }
+    <section class="section location-section" id="location">
+      <div class="container location-grid">
+        <div class="location-copy">
+          <p class="eyebrow">Location &amp; Hours</p>
+          <h2>Easy to reach on Parramatta Road in Burwood.</h2>
+          <div class="location-card">
+            <h3>Workshop Address</h3>
+            <p>Burwood Mechanics &amp; Transmission<br>2/240 Parramatta Road<br>Burwood NSW 2134</p>
+            <a class="text-link" href="https://www.google.com/maps?q=2/240+Parramatta+Road+Burwood+NSW+2134" target="_blank" rel="noreferrer">Open in Google Maps</a>
+          </div>
+          <div class="hours-card">
+            <h3>Business Hours</h3>
+            <ul class="hours-list">
+              <li><span>Monday - Friday</span><strong>8:00am - 5:30pm</strong></li>
+              <li><span>Saturday</span><strong>8:30am - 12:00pm</strong></li>
+              <li><span>Sunday</span><strong>Closed</strong></li>
+              <li><span>Public holidays</span><strong>Hours may vary</strong></li>
+            </ul>
+          </div>
+        </div>
 
-        const turnstileToken = form.querySelector("[name='cf-turnstile-response']");
-        const usingPlaceholderKey = form.innerHTML.includes("YOUR_CLOUDFLARE_TURNSTILE_SITE_KEY");
+        <div class="map-panel">
+          <div class="image-frame image-frame-wide map-frame">
+            <iframe title="Map showing Burwood Mechanics and Transmission at 2/240 Parramatta Road Burwood NSW 2134" src="https://www.google.com/maps?q=2/240%20Parramatta%20Road%20Burwood%20NSW%202134&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="image-frame image-frame-wide">
+            <img src="/assets/images/workshop-location-exterior.svg" width="960" height="540" alt="Automotive workshop exterior style image representing the Burwood Parramatta Road location" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
 
-        if (!usingPlaceholderKey && (!turnstileVerified || !turnstileToken || !turnstileToken.value.trim())) {
-          status.textContent = "Please complete the verification check before sending your enquiry.";
-          return;
-        }
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact Us</p>
+          <h2>Book a service, ask about a transmission issue or request a quote.</h2>
+          <p>If your vehicle is showing transmission symptoms, needs servicing or you want advice before approving repair work, get in touch and the workshop will help you take the next step.</p>
+          <div class="contact-direct">
+            <a class="button button-primary" href="tel:0405399973">Call 0405 399 973</a>
+            <a class="button button-secondary" href="mailto:service@burwoodmechanicsandtransmission.com.au">Email Enquiry</a>
+          </div>
+        </div>
 
-        const submitButton = document.getElementById("submit-button");
-        if (submitButton) {
-          submitButton.disabled = true;
-          submitButton.style.opacity = "0.7";
-        }
+        <form class="contact-form" id="enquiry-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <span class="field-error" id="name-error" aria-live="polite"></span>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required>
+            <span class="field-error" id="phone-error" aria-live="polite"></span>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="field-error" id="email-error" aria-live="polite"></span>
+          </div>
+          <div class="form-row">
+            <label for="vehicle">Vehicle details <span>(optional)</span></label>
+            <input id="vehicle" name="vehicle" type="text" autocomplete="off" placeholder="Example: 2017 Mazda CX-5, slipping transmission">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us about the issue, service needed or vehicle details."></textarea>
+            <span class="field-error" id="message-error" aria-live="polite"></span>
+          </div>
+          <button class="button button-primary button-full" type="submit">Send Enquiry</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-        status.textContent = "Sending your enquiry...";
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Burwood Mechanics &amp; Transmission</h2>
+        <p>Trusted mechanic Burwood NSW for transmission rebuilds, transmission repairs, classic car servicing and general auto repairs on Parramatta Road.</p>
+      </div>
+      <div>
+        <h3>Service Areas</h3>
+        <p>Burwood<br>Strathfield<br>Sydney Inner West</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="tel:0405399973">0405 399 973</a><br><a href="https://www.google.com/maps?q=2/240+Parramatta+Road+Burwood+NSW+2134" target="_blank" rel="noreferrer">2/240 Parramatta Road, Burwood NSW 2134</a></p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon-Fri: 8:00am - 5:30pm<br>Sat: 8:30am - 12:00pm<br>Sun: Closed<br>Public holidays: Hours may vary</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Burwood Mechanics &amp; Transmission. Professional mechanical repairs, transmission rebuilds and classic car service in Burwood.</p>
+    </div>
+  </footer>
 
-        try {
-          await fetch("/", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/x-www-form-urlencoded"
-            },
-            body: encodeFormData(form)
-          });
-
-          form.reset();
-          validators.forEach((field) => setFieldState(field, true));
-          turnstileVerified = false;
-
-          if (window.turnstile && typeof window.turnstile.reset === "function") {
-            window.turnstile.reset();
-          }
-
-          status.textContent = "Thanks for your enquiry. The workshop will be in touch shortly.";
-          trackEvent("form_submit_success");
-        } catch (error) {
-          status.textContent = "There was a problem sending the form. Please call the workshop on 0405 399 973.";
-        } finally {
-          if (submitButton) {
-            submitButton.disabled = false;
-            submitButton.style.opacity = "1";
-          }
-        }
-      }
-
-      if (form) {
-        form.addEventListener("submit", submitNetlifyForm);
-      }
-
-      function trackEvent(name) {
-        if (typeof window.va === "function") {
-          window.va("event", { name: name });
-        }
-      }
-
-      document.querySelectorAll(".track-event").forEach((element) => {
-        element.addEventListener("click", () => {
-          const eventName = element.getAttribute("data-event");
-          if (eventName) {
-            trackEvent(eventName);
-          }
-        });
-      });
-
-      const revealItems = document.querySelectorAll(".reveal");
-      if ("IntersectionObserver" in window && revealItems.length > 0) {
-        const observer = new IntersectionObserver(
-          (entries, currentObserver) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add("is-visible");
-                currentObserver.unobserve(entry.target);
-              }
-            });
-          },
-          { threshold: 0.14 }
-        );
-
-        revealItems.forEach((item) => observer.observe(item));
-      } else {
-        revealItems.forEach((item) => item.classList.add("is-visible"));
-      }
-    </script>
-  </body>
+  <script src="/script.js"></script>
+</body>
 </html>

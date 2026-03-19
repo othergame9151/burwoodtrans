@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">General vehicle repair</title>
+  <desc id="desc">Illustrated modern passenger car receiving routine mechanical service</desc>
+  <rect width="1600" height="1200" fill="#181d22"/>
+  <rect y="860" width="1600" height="340" fill="#252c33"/>
+  <rect x="180" y="170" width="1240" height="52" rx="16" fill="#2f3941"/>
+  <path d="M300 730h900c57 0 103 46 103 103v27H197v-22c0-60 48-108 103-108z" fill="#63707c"/>
+  <path d="M510 618h470c44 0 80 36 80 80v32H430v-32c0-44 36-80 80-80z" fill="#3f697e"/>
+  <rect x="548" y="638" width="164" height="72" rx="18" fill="#dfe5e9"/>
+  <rect x="726" y="638" width="178" height="72" rx="18" fill="#dfe5e9"/>
+  <circle cx="450" cy="878" r="96" fill="#101316"/>
+  <circle cx="1078" cy="878" r="96" fill="#101316"/>
+  <rect x="1220" y="320" width="150" height="240" rx="22" fill="#313b43"/>
+  <circle cx="1295" cy="398" r="48" fill="#b53b2f"/>
+  <circle cx="1295" cy="398" r="18" fill="#101316"/>
+  <rect x="1256" y="478" width="76" height="18" rx="9" fill="#dfe5e9"/>
+  <text x="180" y="1060" fill="#f6f7f8" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700">Modern passenger vehicle repairs and servicing</text>
+</svg>
